@@ -1,0 +1,22 @@
+python main.py \
+--setting 2_1a \
+--no-with_true_t_dens \
+--calculate_con_dens \
+--no-AdvRand \
+--scale_dt \
+--bn \
+--lr_scheduler \
+--early_stopping \
+--dropout \
+--simulate_new \
+--noise 1 \
+--alpha_factor -0.2 \
+--beta_1 0.5 \
+--beta_2 0.5 \
+--delta_factor -0.5 \
+--gamma_factor 0.5 \
+--n_repeats 10 \
+--n_ensemble 10 \
+--grl_weight 0.5 \
+--verbose \
+--no-write_tensorboard

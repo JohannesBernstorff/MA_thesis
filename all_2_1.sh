@@ -1,0 +1,20 @@
+python main.py \
+--setting 2_1 \
+--no-with_true_t_dens \
+--no-calculate_con_dens \
+--AdvRand \
+--scale_dt \
+--bn \
+--lr_scheduler \
+--early_stopping \
+--dropout \
+--simulate_new \
+--alpha_factor 0.1 \
+--beta_1 0.5 \
+--beta_2 0.5 \
+--delta_factor 1 \
+--y_pow 2 \
+--n_repeats 10 \
+--n_ensemble 10 \
+--verbose \
+--no-write_tensorboard

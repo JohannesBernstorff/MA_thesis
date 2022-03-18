@@ -1,0 +1,13 @@
+python main.py \
+--setting 2_1a \
+--no-with_true_t_dens \
+--no-calculate_con_dens \
+--no-AdvRand \
+--scale_dt \
+--bn \
+--lr_scheduler \
+--early_stopping \
+--dropout \
+--simulate_new \
+--verbose \
+--no-write_tensorboard
